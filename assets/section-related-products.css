@@ -5,3 +5,8 @@
 .related-products__heading {
   margin: 0 0 3rem;
 }
+
+.related-products__subheading {
+  margin: 0 0 2rem;
+  text-align: center;
+}
