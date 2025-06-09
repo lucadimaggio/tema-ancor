@@ -58,7 +58,7 @@
     }
   },
   "newsletter": {
-    "label": "Inserisci la tua email per ricevere sconti riservati e consigli tecnici.",
+    "label": "Indirizzo email",
     "success": "Grazie per l'iscrizione",
     "button_label": "Iscriviti"
   },
