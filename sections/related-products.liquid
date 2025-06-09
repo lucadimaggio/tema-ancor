@@ -31,6 +31,11 @@
       <h2 class="related-products__heading inline-richtext {{ section.settings.heading_size }}">
         {{ section.settings.heading }}
       </h2>
+      {% if section.settings.subheading != blank %}
+        <p class="related-products__subheading">
+          {{ section.settings.subheading }}
+        </p>
+      {% endif %}
       <ul
         class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
         role="list"
@@ -73,6 +78,11 @@
       "id": "heading",
       "default": "t:sections.related-products.settings.paragraph__1.default",
       "label": "t:sections.related-products.settings.heading.label"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
     },
     {
       "type": "select",
