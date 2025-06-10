@@ -114,7 +114,7 @@ Il file `settings_data.json` contiene tutte le configurazioni personalizzabili d
 "card_style": "standard",
 "card_image_padding": 0,
 "card_text_alignment": "left",
-"card_color_scheme": "background-2",
+"card_color_scheme": "scheme-2",
 "card_border_thickness": 0,
 "card_border_opacity": 10,
 "card_corner_radius": 0,
@@ -209,7 +209,7 @@ Le sezioni sono definite in un oggetto `sections` separato:
   "header": {
     "type": "header",
     "settings": {
-      "color_scheme": "background-1",
+      "color_scheme": "scheme-1",
       "logo_width": 90,
       "logo_position": "middle-left",
       "menu": "main-menu",
@@ -223,7 +223,7 @@ Le sezioni sono definite in un oggetto `sections` separato:
   "footer": {
     "type": "footer",
     "settings": {
-      "color_scheme": "background-1",
+      "color_scheme": "scheme-1",
       "newsletter_enable": true,
       "newsletter_heading": "Subscribe to our emails",
       "enable_follow_on_shop": true,
@@ -250,8 +250,8 @@ Le sezioni sono definite in un oggetto `sections` separato:
 ## Valori Comuni
 
 ### Color Schemes
-- `background-1`: Schema colore principale
-- `background-2`: Schema colore secondario  
+- `scheme-1`: Schema colore principale
+- `scheme-2`: Schema colore secondario  
 - `inverse`: Schema colore invertito
 - `accent-1`: Schema colore accent primario
 - `accent-2`: Schema colore accent secondario
@@ -325,7 +325,7 @@ Il file `templates/index.json` definisce la struttura e i contenuti della homepa
     "desktop_content_position": "middle-center",
     "show_text_box": false,
     "desktop_content_alignment": "center",
-    "color_scheme": "background-1",
+    "color_scheme": "scheme-1",
     "image_behavior": "none",
     "mobile_content_alignment": "center",
     "stack_images_on_mobile": false,
@@ -380,7 +380,7 @@ Il file `templates/index.json` definisce la struttura e i contenuti della homepa
   "settings": {
     "desktop_content_position": "center",
     "content_alignment": "center",
-    "color_scheme": "background-1",
+    "color_scheme": "scheme-1",
     "full_width": true,
     "padding_top": 40,
     "padding_bottom": 52
@@ -406,7 +406,7 @@ Il file `templates/index.json` definisce la struttura e i contenuti della homepa
     "show_view_all": true,
     "view_all_style": "solid",
     "enable_desktop_slider": false,
-    "color_scheme": "background-1",
+    "color_scheme": "scheme-1",
     "image_ratio": "adapt",
     "image_shape": "default",
     "show_secondary_image": false,
@@ -462,7 +462,7 @@ Il file `templates/index.json` definisce la struttura e i contenuti della homepa
     "desktop_layout": "left",
     "mobile_layout": "collage",
     "card_styles": "product-card-wrapper",
-    "color_scheme": "background-1",
+    "color_scheme": "scheme-1",
     "padding_top": 36,
     "padding_bottom": 36
   }
@@ -481,7 +481,7 @@ Il file `templates/index.json` definisce la struttura e i contenuti della homepa
     "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
     "description": "",
     "full_width": false,
-    "color_scheme": "background-1",
+    "color_scheme": "scheme-1",
     "padding_top": 36,
     "padding_bottom": 36
   }
@@ -525,7 +525,7 @@ Il file `templates/index.json` definisce la struttura e i contenuti della homepa
     "text_style": "body",
     "button_style": "secondary",
     "swipe_on_mobile": false,
-    "color_scheme": "background-1",
+    "color_scheme": "scheme-1",
     "padding_top": 36,
     "padding_bottom": 36
   }
@@ -557,7 +557,7 @@ Il file `templates/index.json` definisce la struttura e i contenuti della homepa
     "heading_size": "h2",
     "image_ratio": "square",
     "columns_desktop": 3,
-    "color_scheme": "background-1",
+    "color_scheme": "scheme-1",
     "show_view_all": false,
     "columns_mobile": "1",
     "swipe_on_mobile": false,
@@ -573,7 +573,7 @@ Il file `templates/index.json` definisce la struttura e i contenuti della homepa
 "newsletter": {
   "type": "newsletter",
   "settings": {
-    "color_scheme": "background-1",
+    "color_scheme": "scheme-1",
     "full_width": true,
     "padding_top": 40,
     "padding_bottom": 52
@@ -583,8 +583,8 @@ Il file `templates/index.json` definisce la struttura e i contenuti della homepa
 
 ## 🎨 Color Schemes Disponibili
 
-- `background-1`: Schema principale
-- `background-2`: Schema secondario
+- `scheme-1`: Schema principale
+- `scheme-2`: Schema secondario
 - `inverse`: Schema invertito
 - `accent-1`: Schema accent primario
 - `accent-2`: Schema accent secondario
@@ -631,7 +631,7 @@ Il file `templates/index.json` definisce la struttura e i contenuti della homepa
         "text": "Qualità industriale, prezzi competitivi",
         "button_label": "Scopri i prodotti",
         "button_link": "/collections/all",
-        "color_scheme": "background-1"
+        "color_scheme": "scheme-1"
       }
     },
     "featured_collection": {
@@ -1047,7 +1047,7 @@ Il file `templates/product.json` definisce la struttura e i contenuti delle pagi
   "settings": {
     "desktop_content_position": "center",
     "content_alignment": "center",
-    "color_scheme": "background-2",
+    "color_scheme": "scheme-2",
     "full_width": true,
     "padding_top": 40,
     "padding_bottom": 52
@@ -1093,7 +1093,7 @@ Il file `templates/product.json` definisce la struttura e i contenuti delle pagi
     "desktop_content_position": "top",
     "desktop_content_alignment": "left",
     "content_layout": "no-overlap",
-    "color_scheme": "background-1",
+    "color_scheme": "scheme-1",
     "image_behavior": "none",
     "mobile_content_alignment": "left",
     "padding_top": 36,
@@ -1120,7 +1120,7 @@ Il file `templates/product.json` definisce la struttura e i contenuti delle pagi
     "show_view_all": false,
     "view_all_style": "solid",
     "enable_desktop_slider": false,
-    "color_scheme": "background-1",
+    "color_scheme": "scheme-1",
     "image_ratio": "adapt",
     "image_shape": "default",
     "show_secondary_image": false,
@@ -1173,7 +1173,7 @@ Il file `templates/product.json` definisce la struttura e i contenuti delle pagi
     "background_style": "none",
     "button_label": "",
     "button_link": "",
-    "color_scheme": "background-1",
+    "color_scheme": "scheme-1",
     "columns_mobile": "1",
     "swipe_on_mobile": false,
     "padding_top": 36,
